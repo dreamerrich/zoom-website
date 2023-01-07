@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/Home';
 import Product from './components/Products';
 import Plans from './components/Plans';
+import Resource from './components/Resource';
 
 const Router = () => {
     return(
@@ -12,7 +13,8 @@ const Router = () => {
                 <Routes>
                     <Route path="/" exact element={<Home />}></Route>
                     <Route path="product" exact element={<Product />}></Route>
-                    <Route path="Plans" exact element={<Plans/>}></Route>
+                    <Route path="plans" exact element={<Plans/>}></Route>
+                    <Route path="resource" exact element={<Resource/>}></Route>
                 </Routes>
             </BrowserRouter>
         </div>

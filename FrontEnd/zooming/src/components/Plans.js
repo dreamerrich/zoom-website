@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Card, CardBody, CardTitle } from 'reactstrap';
 import Header from './Header';
+import Footer from './Footer';
 
 class Plans extends Component {
     render() {
@@ -63,6 +64,7 @@ class Plans extends Component {
                         </ol>
                     </CardBody>
                 </Card>
+                <Footer/>
             </div>
         )
     }
